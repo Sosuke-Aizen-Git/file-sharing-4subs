@@ -5,7 +5,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7173956368:AAGEKUgB4Ch8Dmbvujtjq3Z5gJo9QCTlNpo")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "24955235"))
@@ -14,7 +14,7 @@ APP_ID = int(os.environ.get("APP_ID", "24955235"))
 API_HASH = os.environ.get("API_HASH", "f317b3f7bbe390346d8b46868cff0de8")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002004278204")) # give admin rights all fouth channels ( add yr bot into yr channels)
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002131770266")) # give admin rights all fouth channels ( add yr bot into yr channels)
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1837294444"))
@@ -24,7 +24,7 @@ PORT = os.environ.get("PORT", "8080")
 
 #Database 
 # yt = https://youtu.be/qFB0cFqiyOM
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Cluster0:Cluster0@cluster0.c07xkuf.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://niksharma92297:asta@cluster0.qdwjsh5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluser10")
 
 # force sub channel id, if you want enable force sub
