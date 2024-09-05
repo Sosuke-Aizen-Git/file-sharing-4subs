@@ -10,13 +10,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>owner</a>\n○ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/NeonGhost_Networks'> ʙᴏᴛs</a>\n○ ᴍᴏᴠɪᴇs ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/+axGvZraAH6Q3NTg1'>Movie Group</a>\n○ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me//NeonGhost_Networks'>ᴏ ɴᴇᴛᴡᴏʀᴋ</a>\n○ ᴄʜᴀᴛ : <a href='https://t.me/NewGroup4Movies'>ᴢᴏɴᴇ</a></b>",
+            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>owner</a>\n○ Mᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/Animes_Station'>ᴀɴɪᴍᴇ sᴛᴀᴛɪᴏɴ</a>\n○ ᴏɴɢᴏɪɴɢ ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/Ongoing_anime_Station'>ᴏɴɢᴏɪɴɢ ᴀɴɪᴍᴇ sᴛᴀᴛɪᴏɴ</a>\n○ ᴄʜᴀᴛ ɢʀᴏᴜᴘ : <a href='https://t.me//Anime_Talk_Station'>ᴀɴɪᴍᴇ ᴛᴀʟᴋ sᴛᴀᴛɪᴏɴ</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
                     InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "close"),
-                    InlineKeyboardButton('🍁 UPDATE', url='https://t.me/NeonGhost_Networks')
+                    InlineKeyboardButton('🍁 index', url='https://t.me/Anime_Station_Index')
                     ]
                 ]
             )
